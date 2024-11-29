@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -28,70 +28,76 @@ export default {
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo: 'Atributos de la persona natural',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Sistema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
-            hash: 't_1_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'Nombre, nacionalidad y domicilio',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo: 'Nombre',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
+            titulo: 'Nacionalidad',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Domicilio',
+            hash: 't_2_3',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Patrimonio y estado civil',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+            titulo: 'Patrimonio',
             hash: 't_3_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Estado Civil',
+            hash: 't_3_2',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 3.',
+        numero: '4',
+        titulo: 'Derechos de la personalidad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        unidad: '',
+        numero: '',
+        titulo: 'Sintesis',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -135,79 +141,111 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ávila Hernandez, F. M., De Los Santos olivo, I., y Peralta Martínez , A. R. . (2024). Libre desarrollo de la personalidad y desnaturalización de los derechos humanos: su banalización exponencial. Novum Jus, 18(2), 395–424. ',
+      link: 'https://biblioteca.ucatolica.edu.co/',
+    },
+    {
+      referencia:
+        'Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69643?page=1',
+    },
+    {
+      referencia:
+        'Chavarro Cadena, J. E. (2018). Constitución política de Colombia: (3 ed.). Grupo Editorial Nueva Legislación SAS. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68946',
+    },
+    {
+      referencia:
+        'Chavarro Cadena, J. E. (2018). Código Civil: (2 ed.). Grupo Editorial Nueva Legislación SAS. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68942',
+    },
+    {
+      referencia:
+        'Deere, C. D., & León, M. (2023). Identidad de las mujeres casadas: el uso del “de” en sus apellidos en Colombia. Revista De Estudios Sociales, 84, 19-39. ',
+      link: 'https://revistas.uniandes.edu.co/index.php/res/article/view/1062',
+    },
+    {
+      referencia: 'Corte Constitucional (2009) Sentencia T-439 ',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2009/t-439-09.htm#_ftn9',
+    },
+    {
+      referencia: 'Corte Constitucional (2019) Sentencia T-450 A ',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2013/t-450a-13.htm#:~:text=Los%20atributos%20que%20la%20doctrina,ejercer%20derechos%20y%20contraer%20obligaciones.%E2%80%9D',
+    },
+    {
+      referencia: 'Corte Constitucional (2017) Sentencia C-114 ',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2017/C-114-17.htm',
+    },
+    {
+      referencia: 'Corte Constitucional (2021) Sentencia T-155 ',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2021/T-155-21.htm',
+    },
+    {
+      referencia: 'Corte Constitucional (2018) Sentencia T-241 ',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2018/t-241-18.htm',
     },
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Apellido',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'nombre de familia que sigue al nombre propio y forma parte de la identidad de una persona, transmitido generalmente de manera hereditaria.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Atributos de la personalidad',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'conjunto de características que permiten identificar y distinguir a cada persona en el ámbito jurídico, como el nombre, el estado civil, el domicilio, la nacionalidad, y el patrimonio.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Derechos de la personalidad',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'derechos inherentes a toda persona por el simple hecho de serlo, cuyo fin es proteger la dignidad, libertad, e integridad personal, incluyendo derechos como la identidad, el honor, y la privacidad',
     },
     {
-      termino: 'Constante',
+      termino: 'Domicilio',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'lugar en el que una persona establece su residencia habitual y que determina su localización jurídica para efectos de derechos y obligaciones.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Estado civil',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'situación jurídica que define la posición de una persona en relación con su familia, como soltero, casado, divorciado o viudo, entre otros.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Identidad',
+      significado:
+        'conjunto de elementos propios de una persona que la individualizan, permitiendo su reconocimiento social y jurídico',
     },
     {
-      termino: 'Identificador',
+      termino: 'Libre desarrollo de la personalidad',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'derecho fundamental que permite a la persona actuar conforme a sus propias convicciones y elecciones, sin interferencias arbitrarias.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Nacionalidad',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'vínculo jurídico y político que une a una persona con un Estado, otorgándole derechos y deberes frente a él.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Nombre',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'término o conjunto de palabras con las que se identifica e individualiza a una persona en sociedad y ante la ley.',
     },
     {
-      termino: 'Programa',
+      termino: 'Patrimonio',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
+        'conjunto de bienes, derechos y obligaciones de contenido económico que pertenecen a una persona.',
     },
     {
-      termino: 'Pseudocódigo',
+      termino: 'Registro civil',
       significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
-    },
-    {
-      termino: 'Secuencia',
-      significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
-    },
-    {
-      termino: 'Sistema',
-      significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
-    },
-    {
-      termino: 'Variable',
-      significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'documento público encargado de registrar y certificar hechos y actos relacionados con el estado civil y la identidad de las personas, como nacimientos, matrimonios y defunciones.',
     },
   ],
   complementario: [],

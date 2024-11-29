@@ -85,15 +85,15 @@ $custom-card-img-height: 322px
     object-fit: cover
 
 .acordion__header
-  background-color: #F0E9F6 !important
+  background-color: #FBF8E2 !important
 
 .acordion__header--active
-  background-color: #7F35AB !important
-  h4, i
-    color: #fff !important
+  background-color: #F5E9A1!important
+  // h4, i
+  //   color: #fff !important
 
 .acordion__contenido
-  background-color: #F0E9F6!important
+  background-color: #FDFCF5!important
 
 
 .anexo__texto
@@ -108,7 +108,7 @@ $custom-card-img-height: 322px
     line-height: 26.4px !important
     font-weight: 700 !important
   i
-    color: $color-primario !important
+    color: $color-acento-contenido!important
 
 
 .bg-ppal-claro
@@ -181,3 +181,39 @@ $custom-card-img-height: 322px
 
   span
     font-size: 0.85em
+// Variables
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+// $custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+// $custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    // height: $custom-card-img-height
+    // object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    // height: 224px
+    // object-fit: cove
+.shadow
+  box-shadow: $custom-card-shadow

@@ -20,11 +20,12 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
+              p.home-main-title FUNDAMENTACIÓN JURÍDICA
+              h1.home-title.mb-4.text-uppercase Atributos de la persona natural
+              p.descripcion.mb-4 El Derecho Civil es una rama fundamental del sistema jurídico que reconoce a la persona natural como sujeto de derechos y obligaciones. En esta unidad, nos adentraremos en los atributos de la persona natural: características jurídicas que individualizan a cada persona en la sociedad, como el nombre, la nacionalidad, el domicilio, el patrimonio, el estado civil y la capacidad. A través del análisis de estos conceptos, se busca comprender su relevancia en la vida jurídica y su papel en la interacción de los individuos con el Estado y la sociedad, garantizando la protección de derechos y la seguridad jurídica.
+                br
+                br
+                | #[b ¡Prepárate para explorar los elementos esenciales que fundamentan la identidad jurídica y aseguran el orden social!]
 
 
               .button-container.mt-auto
@@ -67,7 +68,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-primario
+    color: #E5782D
   .home-content
     background-color: white
   .info-section
@@ -98,12 +99,12 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: #7F35AB
+        background-color: #1172B3
         padding: 12px 42px 12px 32px
         width: 100%
         color: #fff
     .icon
-      background-color: #451C5E
+      background-color: #083E61
       padding: 0px 20px
       color: #fff
       display: flex
@@ -142,11 +143,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.4s ease-in-out
-    background-color: $color-btn-fondo !important
+    background-color: $color-primario !important
     color: $color-btn-texto !important
   .icon
     transition: all 0.4s ease-in-out
-    background-color: darken($color-btn-fondo, 20%) !important
+    background-color: darken($color-primario, 20%) !important
   &:hover
     .icon
       transform: scale(1.05)
