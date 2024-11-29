@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title FUNDAMENTACIÓN JURÍDICA
+              p.home-main-title UNIDAD 3
               h1.home-title.mb-4.text-uppercase Atributos de la persona natural
               p.descripcion.mb-4 El Derecho Civil es una rama fundamental del sistema jurídico que reconoce a la persona natural como sujeto de derechos y obligaciones. En esta unidad, nos adentraremos en los atributos de la persona natural: características jurídicas que individualizan a cada persona en la sociedad, como el nombre, la nacionalidad, el domicilio, el patrimonio, el estado civil y la capacidad. A través del análisis de estos conceptos, se busca comprender su relevancia en la vida jurídica y su papel en la interacción de los individuos con el Estado y la sociedad, garantizando la protección de derechos y la seguridad jurídica.
                 br

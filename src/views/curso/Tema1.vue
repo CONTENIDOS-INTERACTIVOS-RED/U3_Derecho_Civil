@@ -7,11 +7,12 @@
         p.mb-4 Para conocer sobre los atributos de la persona natural, lo invitamos a escuchar el siguiente podcast .
         div(style="width: 100%")
           TarjetaAudio.color-primario.mb-3(
-            texto="Texto de muestra  "
-            :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+            texto="Atributos de la persona natural"
+            :audio="require('../../assets/curso/podcast/podcast_1.mp3')"
             tiempo
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
+
       .col-lg-6.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/3.png', alt='')
     p.mb-4 La relevancia de los atributos de la personalidad en el Derecho Civil colombiano, radica en que son la base sobre la cual se reconoce a las personas como sujetos de derecho, permitiéndoles interactuar dentro del sistema jurídico de manera plena. En efecto, estos atributos son esenciales para el ejercicio de derechos y el cumplimiento de obligaciones, así como para garantizar la seguridad jurídica en las relaciones sociales y económicas y permiten:
     .row.justify-content-center.mb-5

@@ -18,7 +18,7 @@
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4(data-aos="fade-right") El nombre es un atributo esencial de la personalidad en el Derecho Civil, ya que permite la identificación y distinción de las personas dentro de la sociedad y el sistema jurídico. El PDF Nombre, explora su evolución histórica, su función jurídica y las garantías legales que protegen su estabilidad e identidad. Además, analiza los mecanismos para realizar cambios en el nombre, destacando su importancia en la construcción de la identidad personal y el libre desarrollo de la personalidad.
 
-        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_nombre.pdf')" target="_blank")(data-aos="flip-up")
           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

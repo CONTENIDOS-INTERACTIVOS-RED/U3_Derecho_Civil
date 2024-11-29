@@ -83,7 +83,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p.mb-3 El estado civil, como atributo esencial de la personalidad jurídica, define la posición de una persona en sus relaciones familiares y sociales, determinando sus derechos y obligaciones. A continuación, el PDF Estado civil, aborda sus características, clasificación, y los mecanismos para su modificación, destacando su importancia en el ámbito jurídico para garantizar identidad, capacidad y seguridad en las interacciones legales.
-        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+        a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_estado_civil.pdf')" target="_blank")(data-aos="flip-up")
           .anexo__icono(:style="{'background-color': '#FCDFDB'}")
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
