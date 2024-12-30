@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 3: Atributos de la persona natural'" :subTitulo="'2. Nombre, nacionalidad y domicilio'")
+  BannerInterno(:titulo="'Unidad 3. Atributos de la persona natural'" :subTitulo="'2. Nombre, nacionalidad y domicilio'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     .row.mb-5
       .col-lg-5
@@ -12,8 +12,8 @@
           p(data-aos="fade-left").mb-0 En el Derecho Civil, la identidad de una persona se construye a través de una serie de elementos que permiten individualizarla en el ámbito jurídico y social. Entre estos, el nombre, la nacionalidad y el domicilio son elementos que definen la personalidad jurídica de cada individuo. 
 
         p(data-aos="fade-left") Estos conceptos no solo configuran la identidad civil, sino que también establecen los derechos y obligaciones que una persona tiene dentro de un ordenamiento legal específico. El estudio de estos elementos permite comprender mejor cómo se articula la relación entre el individuo y el Estado, así como la función que cumple cada uno en la organización social.
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Nombre
+    #t_2_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.1] Nombre
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-4(data-aos="fade-right") El nombre es un atributo esencial de la personalidad en el Derecho Civil, ya que permite la identificación y distinción de las personas dentro de la sociedad y el sistema jurídico. El PDF Nombre, explora su evolución histórica, su función jurídica y las garantías legales que protegen su estabilidad e identidad. Además, analiza los mecanismos para realizar cambios en el nombre, destacando su importancia en la construcción de la identidad personal y el libre desarrollo de la personalidad.
@@ -27,8 +27,8 @@
       .col-lg-5.col-7
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/9.png', alt='')
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Nacionalidad
+    #t_1_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.2] Nacionalidad
     p.mb-4 La nacionalidad es el vínculo jurídico que une a una persona con un Estado, dotándola de una identidad en el plano internacional y garantizándole derechos y obligaciones. Es un concepto fundamental para el Derecho Civil, puesto que determina la capacidad de un individuo para participar en la vida política y social de un país, acceder a servicios estatales, y estar protegido por la ley.
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/10.png', alt='')
@@ -81,8 +81,8 @@
           .p-4
             p.mb-0 En el caso colombiano, los nacionales del país pueden renunciar de manera voluntaria a la nacionalidad. En muchos casos esto se da porque algunos países no permiten la doble nacionalidad. Ahora, respecto a la pérdida, aplica aquellos que hayan adoptado la nacionalidad colombiana y que cometan delitos contra la existencia y seguridad del Estado y el régimen constitucional. Así lo establece la ley 43 de 1993. 
         .col-lg-4.d-none.d-lg-block: img(src='@/assets/curso/temas/13.png', alt='')
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3 Domicilio
+    #t_2_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.3] Domicilio
     p.mb-4 El domicilio es el lugar donde una persona reside con la intención de establecerse de manera permanente o habitual. Este elemento es fundamental en el Derecho Civil, puesto que establece la jurisdicción aplicable para ciertos asuntos legales. Existen distintos tipos de domicilio:
     .row.justify-content-center.mb-5
       .col-lg-6.col-xl-4.mb-4(data-aos="zoom-in-up")
@@ -108,7 +108,7 @@
         p.mb-4 Para tener en cuenta: 
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Importancia del domicilio")
-            p.mb-0 Importancia del domicilio	El domicilio es importante porque determina la jurisdicción territorial para cuestiones legales como el pago de impuestos, la presentación de demandas y la aplicación de ciertas normativas. Además, en casos de conflictos legales, el domicilio suele determinar el foro apropiado para resolver disputas.	  
+            p.mb-0 El domicilio es importante porque determina la jurisdicción territorial para cuestiones legales como el pago de impuestos, la presentación de demandas y la aplicación de ciertas normativas. Además, en casos de conflictos legales, el domicilio suele determinar el foro apropiado para resolver disputas.	  
           div(titulo="Cambio de domicilio")
             p.mb-0 El cambio de domicilio implica el traslado de residencia habitual a otro lugar. Este cambio tiene consecuencias legales, puesto que puede modificar la jurisdicción aplicable y los derechos y obligaciones en el nuevo lugar de residencia.
           div(titulo="Domicilio único")
@@ -117,8 +117,29 @@
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-left"): img(src='@/assets/curso/temas/17.png', alt='')    
     
 
+    p.mb-4(data-aos="fade-right") #[strong Para concluir:] el nombre, la nacionalidad y el domicilio son elementos que conforman la base de la identidad jurídica de las personas y establecen su relación con el Estado y la sociedad. La protección y regulación de estos elementos garantizan no solo el reconocimiento individual, sino también la capacidad de interactuar dentro de un marco legal. En conjunto, estos conceptos reflejan la importancia de la identidad en el ámbito jurídico y subrayan el papel que el Derecho Civil juega en la vida cotidiana de las personas.
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/74697" target="_blank" rel="noopener noreferrer") Alvarez, L. (2010). Nociones de derecho civil y mercantil . Editorial Instituto Politécnico  Nacional
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/55951" target="_blank" rel="noopener noreferrer") Sanchez, E. (2016). Tratado de derecho civil: las garantías. Tomo I. Volumen 1: garantías personales. Prenda y anticresis. LA LEY Soluciones Legales S.A
 
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=p8FgB3KptPs" target="_blank" rel="noopener noreferrer") Castro, Y (2023) [Youtube]
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     
 </template>
 

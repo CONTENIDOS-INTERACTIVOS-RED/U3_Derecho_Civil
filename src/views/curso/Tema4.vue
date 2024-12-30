@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 3: Atributos de la persona natural'" :subTitulo="'4. Derechos de la personalidad'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  BannerInterno(:titulo="'Unidad 3. Atributos de la persona natural'" :subTitulo="'4. Derechos de la personalidad'")
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.overflow-hidden
     div(style="background-color:#FCFAEB ").mb-5
       .row.justify-content-center
         .col-lg-4.d-none.d-lg-block.mb-lg-0.mb-3: img(src='@/assets/curso/temas/31.png', alt='')   
@@ -9,7 +9,7 @@
           .p-4
             p.mb-0 Los derechos de la personalidad son aquellos inherentes al ser humano y reconocidos por el Derecho Civil para proteger los atributos esenciales de la persona. Estos derechos garantizan la protección de los aspectos más fundamentales de la identidad y dignidad de cada individuo, tales como la vida, la integridad física, el honor, la intimidad y la imagen. Aunque los derechos de la personalidad no son iguales en todas las jurisdicciones, su esencia es proteger los valores intrínsecos de cada persona, reconociéndolos como inalienables, imprescriptibles e irrenunciables. 
     p.mb-4 Pueden ser definidos como aquellos derechos subjetivos que resguardan los atributos esenciales de la persona, permitiendo su desarrollo integral y dignidad en sociedad. Estos derechos, al referirse a características propias de la persona, no pueden ser transferidos, renunciados ni prescriben en el tiempo, porque constituyen el núcleo de su individualidad. La protección de estos derechos se encuentra en el reconocimiento de la persona como un fin en sí misma, con una existencia y dignidad que deben ser respetadas por todos.
-    p.mb-4 Las características de los derechos de la personalidad, son:
+
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-4 Las características de los derechos de la personalidad, son:
@@ -59,7 +59,7 @@
           )
           h4.text-center Derecho a la integridad moral
           p.mb-0.text-center Protege la esfera interna de la persona, su dignidad, y sus creencias o convicciones. Este derecho incluye la salvaguarda del honor, la reputación y la autoestima de las personas, evitando que sean víctimas de actos que comprometan su integridad psicológica.
-    h3 Derechos sobre la integridad física y moral
+    h3 Derechos de la identidad
     p.mb-4 Los derechos de la identidad permiten a cada persona ser reconocida y respetada como un individuo único en la sociedad. Estos derechos abarcan aquellos aspectos que configuran la identidad y el sentido de pertenencia de cada persona pueden entenderse como el derecho a los atributos de la personalidad. Estos derechos, son:
     div.row.justify-content-center.align-items-stretch.mb-5
       div.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -91,7 +91,7 @@
           )
           h4.text-center Derecho a la filiación
           p.mb-0.text-center Este derecho asegura la identidad familiar de una persona, protegiendo su derecho a ser reconocido por sus padres biológicos o adoptivos. La filiación tiene efectos personales y patrimoniales, puesto que permite a los individuos establecer su origen y tener relaciones familiares que, a su vez, les brindan derechos y deberes recíprocos.
-    h3 Derechos sobre la integridad física y moral
+    h3 Derechos a la intimidad, la privacidad, la imagen y el honor
     p.mb-4 Los derechos de la intimidad y privacidad protegen la esfera más personal de los individuos, resguardando aspectos de su vida que no desean que se hagan públicos ni sean objeto de intrusiones.
       br
       br
@@ -115,7 +115,7 @@
             p.mb-0 Otorga a cada persona el control sobre la reproducción y difusión de su imagen, es decir, de su apariencia física en fotografías, videos, o cualquier otro medio. La utilización de la imagen de una persona sin su consentimiento puede ser una violación de este derecho, porque afecta su identidad y su privacidad. Este derecho también es especialmente relevante en el contexto de las redes sociales y los medios de comunicación.
           div(titulo="Derecho al honor")
             p.mb-0 Este derecho protege la reputación y el respeto que una persona tiene ante los demás, preservando su dignidad y buen nombre. Cualquier acto que difame, insulte o afecte la reputación de una persona puede ser considerado una violación a su derecho al honor. Este derecho incluye el derecho a defenderse contra afirmaciones falsas o difamatorias.
-    h4 Derechos sobre la integridad física y moral
+    h4 Derecho a la autodeterminación
     p.mb-4 El derecho a la autodeterminación permite a las personas tomar decisiones sobre su vida y sobre cuestiones personales sin interferencias externas. Estos derechos, son:
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -134,16 +134,190 @@
             p.mb-0 Finalmente, los derechos de la personalidad como parte de los derechos subjetivos, son centrales en el Derecho Civil porque resguardan los aspectos más sensibles y esenciales de la existencia humana, asegurando que cada persona tenga el control y respeto sobre su propia vida, identidad, y privacidad. A diferencia de los derechos patrimoniales, los derechos personalísimos no pueden ser transferidos ni renunciados, y son protegidos de manera estricta para salvaguardar la dignidad y autonomía de cada individuo.   
 
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 
 
   </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema4',
+  components: {
+    Actividad,
+  },
   data: () => ({
-    // variables de vue
+    cuestionario: {
+      tema: 'Sistemas numéricos y álgebra de Boole',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'La ______ de un individuo no solo determina su pertenencia a un país, sino que también le otorga derechos como el voto.',
+          imagen: '',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Nacionalidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Residencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Identificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Etnicidad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'José y Juana están por casarse. Dentro de la organización de su nueva vida, la mamá de Juana les dice que es importante revisar las obligaciones de la pareja casada, particularmente el régimen económico del matrimonio que establece cómo se gestionan los ______ y deudas que surgen durante la unión.',
+          imagen: '',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Bienes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Hobbies.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Proyectos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Relaciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'El estado civil puede cambiar en situaciones como el ______, lo que afecta los derechos y deberes de las parejas.',
+          imagen: '',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Matrimonio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Cambio de domicilio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Empleo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Patrimonio.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'El domicilio de una persona es el lugar donde reside habitualmente y tiene implicaciones legales, como en el caso de recibir ______.',
+          imagen: '',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Beneficios económicos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Notificaciones legales',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Invitaciones sociales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Modificaciones en su estado civil',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Al nacer, cada individuo recibe un ______ que debe ser registrado y que se convierten en parte fundamental de su identidad.',
+          imagen: '',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Núcleo familiar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Número de identificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Nombre y apellido.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Patrimonio material e inmaterial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
   }),
 }
 </script>

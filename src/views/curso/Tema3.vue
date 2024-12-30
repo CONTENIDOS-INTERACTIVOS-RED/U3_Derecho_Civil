@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 3: Atributos de la persona natural'" :subTitulo="'3. Patrimonio y estado civil'")
+  BannerInterno(:titulo="'Unidad 3. Atributos de la persona natural'" :subTitulo="'3. Patrimonio y estado civil'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     div(style="background-color:#FCFAEB ").mb-5
       .row.justify-content-center
@@ -8,8 +8,8 @@
         .col-lg-8
           .p-4
             p.mb-0 El Derecho Civil regula una amplia gama de aspectos de la vida de las personas, entre ellos el patrimonio y el estado civil. Ambos conceptos poseen implicaciones profundas en el derecho, debido a que el estado civil determina las relaciones familiares y personales de una persona, mientras que el patrimonio abarca el conjunto de bienes, derechos y obligaciones que esta posee y que influyen en sus relaciones económicas. A través de estos elementos, el Derecho Civil busca establecer un orden en las relaciones de las personas con otras y con sus bienes. 
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.1 Patrimonio
+    #t_3_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.1] Patrimonio
     .row.mb-5
       .col-lg-8.mb-lg-0.mb-3
         p(data-aos="fade-left") El patrimonio en Derecho Civil, es el conjunto de bienes, derechos, obligaciones y cargas que una persona posee y que tienen valor económico. Este concepto es esencial, porque determina los activos y pasivos que una persona puede transmitir o de los cuales puede disponer en su vida y después de su muerte; es decir, es el aspecto económico de las personas. En términos jurídicos, el patrimonio se concibe como una universalidad jurídica y está constituido tanto por los bienes presentes como futuros que posea una persona.
@@ -34,7 +34,7 @@
           div(titulo="Perpetuidad")
             p.mb-0 El patrimonio se mantiene mientras existe la persona, puesto que se entiende como una prolongación de su personalidad jurídica en el ámbito económico. A su muerte, los bienes y derechos pasan a sus herederos, quienes los administran o disponen de ellos según las disposiciones legales.
           div(titulo="Es cuantificable")
-            p.mb-0 Es cuantificable	El patrimonio está  integrado por elementos que puedan ser apropiados por las personas y que tengan cuantificación monetaria.
+            p.mb-0 El patrimonio está  integrado por elementos que puedan ser apropiados por las personas y que tengan cuantificación monetaria.
     .row.justify-content-center.mb-5
       .col-lg-6.col-xl-6.mb-4(data-aos="zoom-in-up")
         .tarjeta.overflow-hidden.radius-1.shadow.h-100
@@ -78,8 +78,8 @@
         .col-lg-8
           .p-4
             p.mb-0 El patrimonio es un atributo esencial de la personalidad en el Derecho Civil, dado que representa el conjunto de derechos y obligaciones de una persona con valor económico y permite su participación plena en la vida jurídica y económica. Este atributo permite a cada individuo asegurar sus recursos, tomar decisiones sobre sus bienes y planificar su sucesión, estableciendo un legado y protegiendo a sus herederos. Además, el patrimonio garantiza que las personas puedan responder ante sus obligaciones, contribuyendo al orden y la estabilidad en las relaciones jurídicas y comerciales. En este sentido, el patrimonio refleja la autonomía y capacidad de una persona para interactuar con la sociedad, proyectando su identidad y responsabilidades.
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.2 Estado civil
+    #t_3_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.2] Estado civil
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p.mb-3 El estado civil, como atributo esencial de la personalidad jurídica, define la posición de una persona en sus relaciones familiares y sociales, determinando sus derechos y obligaciones. A continuación, el PDF Estado civil, aborda sus características, clasificación, y los mecanismos para su modificación, destacando su importancia en el ámbito jurídico para garantizar identidad, capacidad y seguridad en las interacciones legales.
@@ -95,6 +95,30 @@
         .col-lg-8
           .p-4
             p.mb-0 El patrimonio y el estado civil son aspectos fundamentales para entender la configuración de la personalidad jurídica en el Derecho Civil. Mientras el patrimonio define el conjunto de bienes y obligaciones de una persona, el estado civil define su relación familiar y su capacidad de obrar. Ambos conceptos permiten al Derecho Civil regular la forma en que las personas interactúan con otras, con el Estado y con sus propios bienes. La comprensión de estos elementos proporciona una base sólida para entender la estructura jurídica de las relaciones personales y patrimoniales en la sociedad, permitiendo establecer un orden y asegurar la seguridad jurídica en las relaciones civiles. 
+
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/74697" target="_blank" rel="noopener noreferrer") Roselló, R. (2011). Derechos de la personalidad y derechos morales de los autores. Editorial Reus. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/74697" target="_blank" rel="noopener noreferrer") Chavarro Cadena, J. E. (2018). Constitución política de Colombia: (3 ed.). Grupo Editorial Nueva Legislación SAS. 
+
+
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=-4_l7q8cMec" target="_blank" rel="noopener noreferrer") Justicia en Breve (2019) [Youtube] Propia Imagen, cápsula jurídica 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

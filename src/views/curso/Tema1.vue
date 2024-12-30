@@ -1,10 +1,10 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 3: Atributos de la persona natural'" :subTitulo="'1. Atributos de la persona natural'")
+  BannerInterno(:titulo="'Unidad 3. Atributos de la persona natural'" :subTitulo="'1. Atributos de la persona natural'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
-        p.mb-4 Para conocer sobre los atributos de la persona natural, lo invitamos a escuchar el siguiente podcast .
+        p.mb-4 Para conocer sobre los atributos de la persona natural, lo invitamos a escuchar el siguiente #[em podcast].
         div(style="width: 100%")
           TarjetaAudio.color-primario.mb-3(
             texto="Atributos de la persona natural"
@@ -20,7 +20,7 @@
       .col-lg-7(data-aos="fade-left")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Identificación e individualización")
-            p.mb-0 Este atributo permite identificar a cada persona de forma única, evitando confusiones y conflictos en las relaciones jurídicas. Por ejemplo, el nombre y el domicilio permiten a los individuos ser reconocidos y diferenciados en sus relaciones contractuales, patrimoniales y personales, facilitando la protección de sus derechos individuales y de aquellos que puedan afectar a terceros
+            p.mb-0 Este atributo permite identificar a cada persona de forma única, evitando confusiones y conflictos en las relaciones jurídicas. Por ejemplo, el nombre y el domicilio permiten a los individuos ser reconocidos y diferenciados en sus relaciones contractuales, patrimoniales y personales, facilitando la protección de sus derechos individuales y de aquellos que puedan afectar a terceros.
           div(titulo="Protección y reconocimiento de derechos")
             p.mb-0 Al otorgar a cada persona una identidad y posición jurídica específica, se le asegura la protección de los derechos fundamentales de cada individuo. Esto significa que todos tienen derecho a un nombre, a un domicilio y a una nacionalidad, entre otros, y que estos atributos permiten el acceso a otros derechos básicos, como el derecho a la propiedad o a la integridad personal.
           div(titulo="Seguridad jurídica")
@@ -30,9 +30,9 @@
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Vinculación con el Estado y la sociedad")
             p.mb-0 Los atributos de la personalidad son esenciales para la relación de cada persona con el Estado y la sociedad. Por ejemplo, la nacionalidad establece el vínculo entre una persona y el Estado colombiano, definiendo sus derechos y obligaciones cívicas, y el domicilio permite a las autoridades ejercer su jurisdicción sobre los individuos según su lugar de residencia. Además, el estado civil regula la posición de las personas en el ámbito familiar y define sus responsabilidades y derechos dentro del núcleo familiar.
-          div(titulo="Conceptos de paz y cultura de paz")
-            p.mb-0 Al contar con atributos como el domicilio y la nacionalidad, las personas pueden acceder a los mecanismos judiciales y administrativos dentro de la jurisdicción colombiana. El domicilio permite que las autoridades determinen la competencia de los tribunales en casos específicos, asegurando que cada persona pueda hacer valer sus derechos y recibir justicia en su lugar de residencia
-          div(titulo="Conceptos de paz y cultura de paz")
+          div(titulo="Acceso a la justicia")
+            p.mb-0 Al contar con atributos como el domicilio y la nacionalidad, las personas pueden acceder a los mecanismos judiciales y administrativos dentro de la jurisdicción colombiana. El domicilio permite que las autoridades determinen la competencia de los tribunales en casos específicos, asegurando que cada persona pueda hacer valer sus derechos y recibir justicia en su lugar de residencia.
+          div(titulo="Fundamento para los derechos y obligaciones patrimoniales")
             p.mb-0 Algunos de los atributos, como el patrimonio, proporcionan la base sobre la cual las personas pueden adquirir bienes, asumir obligaciones económicas y participar en la vida económica de la sociedad. En este sentido, el patrimonio permite a los individuos no solo gozar de derechos patrimoniales, sino también responsabilizarse de sus obligaciones económicas, lo cual es fundamental para el equilibrio en las relaciones contractuales y económicas.
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-left"): img(src='@/assets/curso/temas/5.png', alt='')
     p.mb-4 Además de los atributos de la personalidad para conferir la condición de persona, Medina (2014), establece que tienen por regla ser:
@@ -74,7 +74,27 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69643?page=1" target="_blank" rel="noopener noreferrer") Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/68942" target="_blank" rel="noopener noreferrer") Chavarro Cadena, J. E. (2018). Código Civil: (2 ed.). Grupo Editorial Nueva Legislación SAS.
 
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=wbhfKZllr1A&t=1193s" target="_blank" rel="noopener noreferrer") Miguel (2020) [Youtube] Derecho Privado I Atributos 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
