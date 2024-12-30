@@ -142,53 +142,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Ávila Hernandez, F. M., De Los Santos olivo, I., y Peralta Martínez , A. R. . (2024). Libre desarrollo de la personalidad y desnaturalización de los derechos humanos: su banalización exponencial. Novum Jus, 18(2), 395–424. ',
-      link: 'https://biblioteca.ucatolica.edu.co/',
-    },
-    {
-      referencia:
-        'Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario. ',
+        'Medina Pabón, J. E. (2014). Derecho civil: derecho de personas: (4 ed.). Editorial Universidad del Rosario.',
       link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69643?page=1',
     },
     {
       referencia:
-        'Chavarro Cadena, J. E. (2018). Constitución política de Colombia: (3 ed.). Grupo Editorial Nueva Legislación SAS. ',
+        'Alvarez, L. (2010). Nociones de derecho civil y mercantil . Editorial Instituto Politécnico  Nacional',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/74697',
+    },
+    {
+      referencia:
+        'Roselló, R. (2011). Derechos de la personalidad y derechos morales de los autores. Editorial Reus. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/46466',
+    },
+    {
+      referencia:
+        'Chavarro Cadena, J. E. (2018). Constitución política de Colombia: (3 ed.). Grupo Editorial Nueva Legislación SAS.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68946',
-    },
-    {
-      referencia:
-        'Chavarro Cadena, J. E. (2018). Código Civil: (2 ed.). Grupo Editorial Nueva Legislación SAS. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/68942',
-    },
-    {
-      referencia:
-        'Deere, C. D., & León, M. (2023). Identidad de las mujeres casadas: el uso del “de” en sus apellidos en Colombia. Revista De Estudios Sociales, 84, 19-39. ',
-      link: 'https://revistas.uniandes.edu.co/index.php/res/article/view/1062',
-    },
-    {
-      referencia: 'Corte Constitucional (2009) Sentencia T-439 ',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2009/t-439-09.htm#_ftn9',
-    },
-    {
-      referencia: 'Corte Constitucional (2019) Sentencia T-450 A ',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2013/t-450a-13.htm#:~:text=Los%20atributos%20que%20la%20doctrina,ejercer%20derechos%20y%20contraer%20obligaciones.%E2%80%9D',
-    },
-    {
-      referencia: 'Corte Constitucional (2017) Sentencia C-114 ',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2017/C-114-17.htm',
-    },
-    {
-      referencia: 'Corte Constitucional (2021) Sentencia T-155 ',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2021/T-155-21.htm',
-    },
-    {
-      referencia: 'Corte Constitucional (2018) Sentencia T-241 ',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2018/t-241-18.htm',
     },
   ],
   glosario: [
